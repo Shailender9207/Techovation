@@ -1,0 +1,63 @@
+.navbar-wapper{ 
+	background: linear-gradient(to right, #232526, #414345);
+	background-image: url(../images/circuitnode.png);
+	background-color: black;
+}
+.navbar{
+	background: white;
+    margin-top: 19px;
+}
+img{
+	height: 63px;
+    margin-top: 2px;
+}
+#techlevel{
+	margin-bottom: -1px;
+	margin-top: -1px;
+	margin-left: 4px;
+}
+span{
+	font-family: roboto-ltalic, serif;
+	font-weight: 800;
+	font-size: 30px;
+}
+ul.nav.navbar-nav{
+	font-weight: 700;
+    float: right;
+    margin: 9px;
+}
+
+.navbar-nav > li > a:hover{
+    float-left:4px;
+	background-color: red;
+}
+.navbar-nav > li > a {
+    line-height: 15px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.navbar-toggle.icon-bar{
+	background: black;
+	width: 28px;
+	background: black;
+/*	margin-top: 16px;
+    margin-right: 15px;
+    margin-bottom: 14px;*/
+}
+.navbar-toggle.collapsed{
+    position: relative;
+    float: right;
+    padding: 16px 20px;
+    position-top:14px;
+ }
+span.icon-bar{
+ 	background: black;
+ 	width: 35px;
+ 	display: block;
+    height: 2px;
+    border-radius: 1px;
+ }
+@face-fonts{
+	font-family: roboto-black;
+	src:url(../fonts/roboto-black.ttf);
+}

@@ -1,0 +1,26 @@
+h1{
+	font-family: roboto-ltalic, serif;
+	font-weight: 800;
+	
+}
+@face-fonts{
+	font-family: Crete Round, serif;
+	src:url(../fonts/CreteRound-ltalic.ttf);
+	font-style: italic;
+	src:url(../fonts/CreteRound-Regular.ttf);
+}
+@face-fonts{
+	font-family: roboto-black;
+	src:url(../fonts/roboto-black.ttf);
+}
+@face-fonts{
+	font-family: roboto-ltalic;
+	src:url(../fonts/roboto-ltalic.ttf);
+}
+.row{
+	background-color: blue;
+	height: 101px;
+}
+#logo{
+	im
+}

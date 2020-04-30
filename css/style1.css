@@ -1,0 +1,72 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-color: #5C6065;
+	background-image: url("image/coronavirus.png");
+
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+	background: black;
+	text-align: center;
+	transition: .6s;
+	border: 4px solid #FF5733 ;
+	background-image: url("../image/coronavirus.png");
+
+
+}
+.box h1{
+	color: white;s
+
+}
+
+.box input[type="text"],.box input[type="password"]{
+	border: 0px;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #2276FB;
+	padding: 14px 40px;
+	outline:inherit;
+	border-radius: 20px;
+	transition: .25s;
+	color: white;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+	width: 220px;
+	border-color: #DAF7A6 ;
+	transition: .3s;
+}
+.box input[type="submit"]{
+	border: 0px;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #CB9759 ;
+	padding: 14px 40px;
+	outline:none;
+	border-radius: 20px;
+	transition: .25s;
+	color: #CB9759;
+}
+.box input[type="submit"]:hover{
+	color: red;
+	border: 0px;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 3px solid #CB9759 ;
+	padding: 14px 40px;
+	outline:none;
+	border-radius: 20px;
+	transition: .25s;
+}
