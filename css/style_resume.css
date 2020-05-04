@@ -1,15 +1,17 @@
 .navbar-wapper{ 
-	background: linear-gradient(to right, #232526, #414345);
-	background-image: url(../images/circuitnode.png);
-	background-color: black;
+	/*background: linear-gradient(to right, #232526, #414345);*/
+	/*background-image: url(../images/circuitnode.png);*/
+	/*background-color: black;*/
 }
 .navbar{
-	background: white;
-    margin-top: 19px;
+	background-color: white;
+    margin-top: 7px;
+    margin-bottom: 8px !important;
 }
 img{
-	height: 63px;
+	height: 50px;
     margin-top: 2px;
+    padding-left: 4PX;
 }
 #techlevel{
 	margin-bottom: -1px;
@@ -24,17 +26,13 @@ span{
 ul.nav.navbar-nav{
 	font-weight: 700;
     float: right;
-    margin: 9px;
-}
-
-.navbar-nav > li > a:hover{
-    float-left:4px;
-	background-color: red;
+    margin: 3px;
 }
 .navbar-nav > li > a {
     line-height: 15px;
     font-size: 16px;
-    font-weight: 400px;
+    padding-top: 10px !important; 
+    padding-bottom: 10px !important;
 }
 .navbar-toggle.icon-bar{
 	background: black;
@@ -44,10 +42,10 @@ ul.nav.navbar-nav{
     margin-right: 15px;
     margin-bottom: 14px;*/
 }
-.navbar-toggle.collapsed{
+.navbar-toggle{
     position: relative;
     float: right;
-    padding: 16px 20px;
+    background-color: black !important;
     position-top:14px;
  }
 span.icon-bar{
@@ -60,4 +58,8 @@ span.icon-bar{
 @face-fonts{
 	font-family: roboto-black;
 	src:url(../fonts/roboto-black.ttf);
+}
+.carousel {
+    position: relative;
+    top: 67px;
 }
